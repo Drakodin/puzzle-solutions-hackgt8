@@ -75,6 +75,7 @@ unzip {archive_name} [options]
 
 ## The Crumpled Paper
 This paper contains an odd font. Upon examination, you should notice you only need the text that is red, bolded, and underlined.
+
 ![password-puzzle](./essential_assets/puzzle-two-key.png "Puzzle 1's PDF subpuzzle")
 
 Every time something in the text was written, the information needed to solve it was available. For example, the text immediately below "A MystErious MercHant" says "A MystErious MercHant". The font is **NOT** a monospaced font like *Courier-New* so it will be difficult at first.
@@ -102,9 +103,11 @@ I could have even encoded it and it would have been an even larger mess to decod
 Oh the dreaded PDF! The roadblock for nearly every solver except 3. It was actually intentionally vague as was many hints because if I told you anything specific, you could have probably solved it right away. For the sake of it, here's a warning just in case it causes anxiety.
 
 First, enter the password you got from the previous cipher:
+
 ![image](./essential_assets/entering_password.png)
 
 This opens up the pdf to show this.
+
 ![image](./essential_assets/the_pdf.png)
 
 ### What We Know
@@ -120,21 +123,25 @@ There's a very severe lack of context for anything on this PDF, but let's take a
 
 ### The Hint
 There was a, admittedly, horrible hint I sent out that explained what the 5x5 grid was since the latter sentence is effectively instructions on what to do with the output of the 5x5 grid.
+
 ![Polybius Mockup](./essential_assets/arcade_legend.png)
 
 This is a reference to the urban legend of *Polybius*, a mythical arcade cabinet supposedly made by the government meant to control the minds of players and make them into sleeper agents. The supposed start up screen looks like this:
+
 ![Polybius Myth](./non-essential-assets/Polybius.jpeg)
 
 So what does this mean? Well, the 5x5 grid is a variant of the Polybius square cipher. This also explains why the coordinates only use numbers from 1 to 5, inclusive.
 
 ### Polybius Square
 This is the typical form of the Polybius square cipher.
+
 ![Polybius Square](./non-essential-assets/polybius_square.png)
 
 For example, the value "11" maps to "A".
 
 ### Solving the Modified Polybius Square
 Let's go back to [the pdf](##The(Dreaded)PDF). From what we know, we have a list of "coordinates". Now that we know that the square is a Polybius Square, we can apply the same concept to it. Below is a color-matched version of all of the "coordinates" to their associated cell.
+
 ![color-coded](./essential_assets/annotated_polybius.png)
 
 As you can probably see by now, the diagonal color means nothing. In fact, two of the letters were not even used. I just designed the grid that way to look nice. Plus, since HackGT is now HexLabs, I felt it was right that I make some reference to that.
@@ -158,6 +165,7 @@ Shark is a type of Enigma Machine available on Cryptii. Swap the existing module
 Calling this number rings up the creator of God of War and Kratos. This is completely useless and is just a fun easter egg. The numbers themselves are what we need. Notice that after we set up Shark Gamma-B12, we have 10 remaining slots. Ignoring the country code (added solely for international participants to have some fun), add the numbers into the remaining 10 slots.
 
 You should have the following as your module content.
+
 ![Enigma machine then caesar cipher](./essential_assets/cryptii_modules.png)
 
 For the text input, feed the string from the Polybius square in.
