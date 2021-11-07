@@ -68,7 +68,7 @@ unzip {archive_name} [options]
 ```
 
 ### Linux
-As discussed in [WSL2](####WSL2), the command on Linux to unzip any archive is `unzip`. Thus, simply call:
+As discussed in [WSL2](#wsl2), the command on Linux to unzip any archive is `unzip`. Thus, simply call:
 ```
 unzip {archive_name} [options]
 ```
@@ -140,7 +140,7 @@ This is the typical form of the Polybius square cipher.
 For example, the value "11" maps to "A".
 
 ### Solving the Modified Polybius Square
-Let's go back to [the pdf](##The(Dreaded)PDF). From what we know, we have a list of "coordinates". Now that we know that the square is a Polybius Square, we can apply the same concept to it. Below is a color-matched version of all of the "coordinates" to their associated cell.
+Let's go back to [the pdf](#the-dreaded-pdf). From what we know, we have a list of "coordinates". Now that we know that the square is a Polybius Square, we can apply the same concept to it. Below is a color-matched version of all of the "coordinates" to their associated cell.
 
 ![color-coded](./essential_assets/annotated_polybius.png)
 
