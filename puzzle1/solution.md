@@ -8,6 +8,13 @@ What a strange vendor! A hexagon for a head? But, where are their items? "Hey!",
 ## The Merchant
 ![A purple hexagon in a brown robe](./essential_assets/merchant-puzzle=copy.png "The Merchant")
 
+## Software Recommendations
+While the software is explained in detail later, here is a short list of what may be useful when solving this puzzle
+* Archive unzipping tool
+    * MacOS/OS X, Linux: `unzip`
+    * Windows: WinRAR, WSL/WSL2
+* Cryptii.com
+
 ## So what are they hiding?
 In order to figure out what they are hiding, we need to examine the image more closely. The image I attached here on this file is *not* the puzzle's image. In fact, this image is much *smaller* than the puzzle's, despite having the same pixel size and same image content.
 
