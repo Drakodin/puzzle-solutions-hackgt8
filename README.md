@@ -1,8 +1,8 @@
-# hackgt8-puzzle-solutions
+# Talia's Puzzle Solutions from HackGT8
 Markdown files for solutions to HackGT 8: Discover Your Craft admission puzzles.
 
 ## Current solution sheets
-* Puzzle 1 - The Mysterious Merchant
+* Puzzle 1 - The Mysterious Merchant (fully documented)
 * Puzzle 3 - Story of Space
 
 ## What are these?
